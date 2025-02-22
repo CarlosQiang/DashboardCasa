@@ -13,7 +13,7 @@ export default function Login() {
     e.preventDefault();
 
     // Validar credenciales
-    if (username === 'root' && password === 'root') {
+    if (username === 'root' && password === 'Gandalf-2') {
       localStorage.setItem('userRole', 'admin');
       router.push('/dashboard');
     } else {
